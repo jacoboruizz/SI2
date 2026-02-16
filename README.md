@@ -1,3 +1,3 @@
 # Sistemas-Inform-ticos-2
 
-SHA256:lCVmQyLbmx8iqCmi+sLKXtRu7MDCqmL3b7S86I1cEUQ
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPAqM7ZJKzPyvSYUfWs/KzKrd7GDiHjb3co+plxO7IDM xng@xng
