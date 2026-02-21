@@ -11,9 +11,9 @@ class TarjetaView(APIView):
     def post(self, request):
 
         if pagoDB.verificar_tarjeta(request.data):
-            return Response({'message': 'Tarjeta válida'}, status=status.HTTP_200_OK)
+            return Response({'message': 'Datos encontrados en la base de datos'}, status=status.HTTP_200_OK)
         else:
-            return Response({'message': 'Datos de la tarjeta no encontrados.'}, 
+            return Response({'message': 'Datos no encontrados en la base de datos'}, 
                             status=status.HTTP_404_NOT_FOUND)
 
 class PagoView(APIView):
