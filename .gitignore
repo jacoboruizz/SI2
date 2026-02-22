@@ -161,3 +161,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 P1-base/env
 P1-ws-backend/env
+P1-ws-frontend/env
